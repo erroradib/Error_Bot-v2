@@ -1,3 +1,5 @@
+#Ami kintu event use kori nai :)
+
 import os
 import traceback
 import sys
@@ -7,7 +9,7 @@ from config import TOKEN
 from itertools import cycle
 from discord.utils import get
 
-owner_id = 826742927974989865
+owner_id = None #nije nijer ta dao
 client = commands.Bot(commands.when_mentioned_or('.'))
 client.case_insensitive=True
 client.remove_command('help')
